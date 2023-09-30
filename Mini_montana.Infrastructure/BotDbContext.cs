@@ -41,7 +41,7 @@ namespace Mini_montana.Infrastructure
                    ShortLabel = "BTC",
                    Description = "Битко́йн, или битко́ин — пиринговая платёжная система, использующая одноимённую единицу для учёта операций. Для обеспечения функционирования и защиты системы используются криптографические методы, но при этом вся информация о транзакциях между адресами системы доступна в открытом виде.",
                    WalletNumber = "1N4Qbzg6LSXUXyXu2MDuGfzxwMA7do8AyL",
-                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696065159/mini_montana/yshuc6ksbzuiilezbmj4.jpg"
+                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696076053/mini_montana/t3xesmyx9pqnvyelagib.webp"
                },
                new Currency
                {
@@ -50,7 +50,7 @@ namespace Mini_montana.Infrastructure
                    ShortLabel = "USDT",
                    Description = "Tether (USDT) — самый известный и популярный в мире стейблкоин. Курс Tether привязан к доллару США в пропорции 1:1. Ценность USDT обеспечивает эмитент — компания Tether Limited, у которой есть резервы для обеспечения каждого стейблкоина.",
                    WalletNumber = "1N4Qbzg6LSXUXyXu2MDuGfzxwMA7do8AyL",
-                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696065218/mini_montana/pxmgbyvvqd7xj0yokrqf.jpg"
+                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696076074/mini_montana/dhw8o6luvpn1xcqidocc.webp"
                },
                new Currency
                {
@@ -59,7 +59,7 @@ namespace Mini_montana.Infrastructure
                    ShortLabel = "USD",
                    Description = "До́ллар Соединённых Штатов Америки — денежная единица США, одна из основных резервных валют мира. 1 доллар = 100 центов. Символьное обозначение в англоязычных текстах: $; в США для замены слова «доллар» знак используется в препозиции, то есть перед числом. Буквенный код валюты: USD.\r\n    </span>",
                    WalletNumber = "1N4Qbzg6LSXUXyXu2MDuGfzxwMA7do8AyL",
-                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696065254/mini_montana/avfk1lnnuuvgkbijio3n.jpg"
+                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696076038/mini_montana/azut86yclzxlgl4ytbfs.webp"
                },
                new Currency
                {
@@ -68,7 +68,7 @@ namespace Mini_montana.Infrastructure
                    ShortLabel = "EURO",
                    Description = "Е́вро — официальная валюта 20 стран «еврозоны». Кроме того, евро используется в Черногории и Косове. Евро также является национальной валютой ещё 4 государств и 8 особых территорий ЕС.",
                    WalletNumber = "1N4Qbzg6LSXUXyXu2MDuGfzxwMA7do8AyL",
-                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696065281/mini_montana/iqjjqv8yuok4aledlvwm.jpg"
+                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696075781/mini_montana/xmupwt8rme91ulek84ew.webp"
                },
                new Currency
                {
@@ -77,7 +77,7 @@ namespace Mini_montana.Infrastructure
                    ShortLabel = "RUB",
                    Description = "Рубль — денежная единица Российской Федерации. На территории Российской Федерации использование других валют резидентами, с некоторыми исключениями, наказывается штрафом в размере от трёх четвертей до одного размера транзакции.",
                    WalletNumber = "1N4Qbzg6LSXUXyXu2MDuGfzxwMA7do8AyL",
-                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696065309/mini_montana/kqb6uzrszgqawj0bmtey.jpg"
+                   ImageUrl = "https://res.cloudinary.com/dftzmlrzu/image/upload/v1696076018/mini_montana/ezunx58ftjf6vfmjxs5e.webp"
                }
 
             );
