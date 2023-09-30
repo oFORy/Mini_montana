@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Query.Internal;
 using Mini_montana.Application.Services.Alldata.Commands;
 using Mini_montana.Application.Services.Alldata.Queries;
 using Mini_montana.Domain.Entities;
+using Mini_montana.Interface.Params;
 using System.ComponentModel;
 
 namespace Mini_montana.Interface.Controllers
@@ -28,10 +29,11 @@ namespace Mini_montana.Interface.Controllers
             return Ok(await _alldataQueryService.GetCurrencys());
         }
 
-        [HttpPost("Api/Data/DataСollected")]
-        public async Task<Dictionary<string, bool>> DataСollected([FromBody] History history)
+        [HttpPost("Api/Data/DataCollected")]
+        public async Task<Dictionary<string, bool>> DataCollected([FromForm] DataCollectedParam param)
         {
-            return await _alldataCommandService.postResponse(history);
+            var newHistory = new History();
+            return await _alldataCommandService.postResponse(newHistory);
         }
 
     }
