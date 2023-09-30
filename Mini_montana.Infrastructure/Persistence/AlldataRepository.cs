@@ -16,7 +16,7 @@ namespace Mini_montana.Infrastructure.Persistence
 
         public async Task<List<Currency>> GetCurrencys()
         {
-            return await _botDbContext.Currencies.AsNoTracking().ToListAsync();
+            return await _botDbContext.Currencies.AsNoTracking().Include(c => c.Countries).ToListAsync();
         }
 
 
