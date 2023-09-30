@@ -14,6 +14,8 @@ namespace Mini_montana.Domain.Entities
         public string Description { get; set; }
         public string WalletNumber { get; set; }
         public string ImageUrl { get; set; }
-        public List<Country> Countries { get; set; }
+        public int CountryId { get; set; }
+        
+        public Country Country { get; set; }
     }
 }

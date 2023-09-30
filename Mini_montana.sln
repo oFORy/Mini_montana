@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_montana.Domain", "Mini_montana\Mini_montana.Domain.csproj", "{1CC29D34-D9C8-44FD-A05B-3C44A855CBD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini_montana.Domain", "Mini_montana\Mini_montana.Domain.csproj", "{1CC29D34-D9C8-44FD-A05B-3C44A855CBD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_montana.Application", "Mini_montana.Application\Mini_montana.Application.csproj", "{691D5852-1C78-4448-B633-CD8BD7C1E847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini_montana.Application", "Mini_montana.Application\Mini_montana.Application.csproj", "{691D5852-1C78-4448-B633-CD8BD7C1E847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_montana.Infrastructure", "Mini_montana.Infrastructure\Mini_montana.Infrastructure.csproj", "{1CEB6DAF-2CE2-4753-A0CD-36327828B01F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini_montana.Infrastructure", "Mini_montana.Infrastructure\Mini_montana.Infrastructure.csproj", "{1CEB6DAF-2CE2-4753-A0CD-36327828B01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_montana.Interface", "Mini_montana.Interface\Mini_montana.Interface.csproj", "{BD5FEF16-E5CC-442B-9D5C-B0E78C57BD09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini_montana.Interface", "Mini_montana.Interface\Mini_montana.Interface.csproj", "{BD5FEF16-E5CC-442B-9D5C-B0E78C57BD09}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2FC13AF7-4752-4D2D-BAFC-61ECA414909F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BD5FEF16-E5CC-442B-9D5C-B0E78C57BD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5FEF16-E5CC-442B-9D5C-B0E78C57BD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5FEF16-E5CC-442B-9D5C-B0E78C57BD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC13AF7-4752-4D2D-BAFC-61ECA414909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC13AF7-4752-4D2D-BAFC-61ECA414909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC13AF7-4752-4D2D-BAFC-61ECA414909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC13AF7-4752-4D2D-BAFC-61ECA414909F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

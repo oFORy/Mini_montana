@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  mini_montana.interface:
+    image: ${DOCKER_REGISTRY-}minimontanainterface
+    build:
+      context: .
+      dockerfile: Mini_montana.Interface/Dockerfile
+    ports:
+      - "23400:80"
+      - "23401:443"
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    external: true

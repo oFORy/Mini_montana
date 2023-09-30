@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_container
+    environment:
+      POSTGRES_DB: Mini_montana
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 98GerodoT98
+    ports:
+      - "5627:5432"
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    external: true
