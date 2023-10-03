@@ -14,7 +14,7 @@ namespace Mini_montana.Domain.Entities
         public string? UserName { get; set; }
         public string? UserLogin { get; set; }
         public int IdCurrency { get; set; }
-        public DateTime? DateTime { get; set; }
+        public string? DateTime { get; set; }
         public ActionTypes ActionType { get; set; }
         public int IdCountry { get; set; }
     }

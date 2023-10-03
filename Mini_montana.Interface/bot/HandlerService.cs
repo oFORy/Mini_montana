@@ -29,7 +29,7 @@ namespace Mini_montana.Interface.bot
                         await BotOnMessageReceived(update.Message!);
                         break;
                     default:
-                        await BotOnMessageReceived(update.Message!);
+                        await UnknownUpdateHandlerAsync(update);
                         break;
                 };
             }
@@ -53,7 +53,6 @@ namespace Mini_montana.Interface.bot
                     sentMessage = await SendFirstMessage(message);
                     break;
                 default:
-                    sentMessage = await SendFirstMessage(message);
                     break;
             }
 
@@ -61,7 +60,11 @@ namespace Mini_montana.Interface.bot
         }
 
 
-
+        private Task UnknownUpdateHandlerAsync(Update update)
+        {
+            _logger.LogInformation("Unknown update type: {updateType}", update.Type);
+            return Task.CompletedTask;
+        }
 
 
         private async Task<Message> SendFirstMessage(Message message)

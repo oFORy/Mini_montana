@@ -8,10 +8,12 @@ namespace Mini_montana.Interface.Params
         public int UserId { get; set; }
         public string? UserName { get; set; }
         public string? UserLogin { get; set; }
-        public int IdCurrency { get; set; }
+        public string CurrencyName { get; set; }
         public string? SelectedDateTime { get; set; }
+        public string ActionTypeName { get; set; }
         public ActionTypes ActionType { get; set; }
-        public int IdCountry { get; set; }
+        public int CountryId { get; set; }
+        public string CountryName { get; set; }
         public IFormFile Files { get; set; }
     }
 }

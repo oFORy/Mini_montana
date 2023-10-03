@@ -6,6 +6,12 @@ services:
     build:
       context: .
       dockerfile: Mini_montana.Interface/Dockerfile
+    environment:
+      - BotToken=6366109652:AAHHcc4nWUUkIjZpvqEczTspbRSMEmKmraw
+      #- DB_CS=Server=194.67.67.179;Port=5627;Database=Mini_montana;user id=postgres;password=98GerodoT98;Connection Timeout=300;
+      - DB_CS=host=194.67.67.179;port=5627;database=Mini_montana;username=postgres;password=98GerodoT98;
+      - HostAddress=https://ff0a-24-135-39-140.ngrok.io
+      - AdminChanel=-4012338010
     ports:
       - "23400:80"
       - "23401:443"

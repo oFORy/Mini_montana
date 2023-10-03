@@ -1,4 +1,4 @@
-namespace Order.Bot.Bot;
+namespace Mini_montana.Interface.bot;
 
 public class BotConfiguration
 {

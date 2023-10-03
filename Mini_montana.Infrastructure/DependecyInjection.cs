@@ -22,7 +22,7 @@ namespace Mini_montana.Infrastructure
 
 
             services
-                .AddDbContext<BotDbContext>(opt => opt.UseNpgsql(configuration.GetConnectionString("DefaultConnection"),
+                .AddDbContext<BotDbContext>(opt => opt.UseNpgsql(Environment.GetEnvironmentVariable("DB_CS"),
                 b => b.MigrationsAssembly("Mini_montana.Interface")));
 
             return services;
