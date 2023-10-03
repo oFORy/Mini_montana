@@ -22,6 +22,14 @@
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "environmentVariables": {
+        "BotToken": "6072927357:AAGYhmMLBYUY7RhrA9tvj_F6B6lhY-al-ic",
+        "DB_CS": "Server=localhost;Port=5627;Database=Mini_montana;user id=postgres;password=98GerodoT98;Connection Timeout=300;",
+        "HostAddress": "",
+        "Token": "",
+        "Email": "",
+        "AdminChanel": ""
+      },
       "publishAllPorts": true,
       "useSSL": true
     }
